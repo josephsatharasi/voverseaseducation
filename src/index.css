@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors */
+  --color-navy: #0B1D35;
+  --color-navy-light: #152D4E;
+  --color-primary: #4F46E5;
+  --color-primary-dark: #3730A3;
+  --color-primary-light: #818CF8;
+  --color-gold: #F59E0B;
+  --color-gold-light: #FCD34D;
+
+  /* Backgrounds */
+  --color-soft-bg: #F8FAFF;
+  --color-card-bg: #FFFFFF;
+
+  /* Text */
+  --color-dark-text: #0F172A;
+  --color-body-text: #334155;
+  --color-secondary-text: #64748B;
+  --color-muted: #94A3B8;
+
+  /* Accents */
+  --color-teal: #0EA5E9;
+  --color-emerald: #10B981;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-body-text bg-white antialiased;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #4F46E5 0%, #0EA5E9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-hero-gradient {
+    background: linear-gradient(135deg, #0B1D35 0%, #152D4E 50%, #1e3a5f 100%);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .section-divider {
+    background: linear-gradient(90deg, transparent, #4F46E5, transparent);
+    height: 1px;
+  }
+}
