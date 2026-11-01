@@ -6,6 +6,7 @@ import {
   Plane,
   HeartHandshake,
   GraduationCap,
+  Wallet,
 } from 'lucide-react'
 
 export const services = [
@@ -36,6 +37,13 @@ export const services = [
     title: 'Scholarship Guidance',
     description:
       'Identifying scholarship opportunities and helping you prepare strong applications for financial support.',
+  },
+  {
+    id: 'education-loans',
+    icon: Wallet,
+    title: 'Education Loan Assistance',
+    description:
+      'Guidance on exploring education loan options, understanding lender requirements, and organising the financial documents needed for your overseas studies.',
   },
   {
     id: 'visa',

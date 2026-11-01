@@ -13,17 +13,20 @@ export default function Destinations() {
       <SectionHeader
         eyebrow="Where Will You Study?"
         title="Explore Study Destinations"
-        subtitle="We support students applying to universities across these countries. Each destination offers unique opportunities — let us help you find the right fit."
+        subtitle="Discover trusted study destinations, internationally recognised universities, and programmes that match your academic interests and career ambitions. Our counsellors guide you at every step — from choosing the right country and course to preparing a confident application."
       />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {destinations.map((dest, i) => (
+        {destinations.map((dest, index) => (
           <motion.div
             key={dest.id}
             initial={reduced ? {} : { opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.45, delay: i * 0.07 }}
+            transition={{
+              duration: 0.45,
+              delay: index * 0.07,
+            }}
           >
             <DestinationCard destination={dest} />
           </motion.div>

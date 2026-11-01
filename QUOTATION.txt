@@ -1,0 +1,149 @@
+================================================================================
+                    WEBSITE DEVELOPMENT QUOTATION
+                       VOVERSEAS EDUCATION
+================================================================================
+
+  Prepared By  : [Your Full Name]
+  Role         : Frontend Developer & Deployment Engineer
+  Date         : [Today's Date]
+  Project      : Voverseas Education — Official Website
+  Live URL     : [Your Domain URL]
+  GitHub Repo  : https://github.com/josephsatharasi/voverseaseducation
+
+================================================================================
+                            PROJECT OVERVIEW
+================================================================================
+
+  Voverseas Education required a complete professional website to establish
+  their online presence as an international student counselling company.
+  The website was designed, developed, deployed, and connected to a live
+  domain — fully delivered as a production-ready product.
+
+================================================================================
+                           WORK DELIVERED
+================================================================================
+
+  WEBSITE DEVELOPMENT
+  -------------------
+  [x] Complete website design and development from scratch
+  [x] Built using React, Vite, and Tailwind CSS (modern tech stack)
+  [x] 6 fully functional pages:
+        - Home
+        - About Us
+        - Study Destinations
+        - Our Services
+        - Courses
+        - Contact Us
+  [x] 11 sections including Hero, Highlights, Country Scroller,
+      Destinations, Why Choose Us, Our Process, Courses,
+      Testimonials, FAQ, Contact Form, and Footer
+  [x] Smooth animations and transitions throughout
+  [x] Fully responsive — works on mobile, tablet, and desktop
+  [x] Professional UI with consistent branding and color scheme
+  [x] Reusable component architecture for easy future updates
+  [x] Contact enquiry form (frontend UI)
+  [x] Interactive FAQ accordion
+  [x] Country flags scrolling section
+  [x] Floating hero cards with animations
+
+  DEPLOYMENT & DOMAIN INTEGRATION (DevOps)
+  -----------------------------------------
+  [x] Project deployed on Vercel (production environment)
+  [x] Custom domain connected and configured (GoDaddy)
+  [x] DNS records configured (A record + CNAME)
+  [x] SSL/HTTPS certificate active — website is fully secure
+  [x] GitHub repository created and all code pushed
+  [x] Continuous deployment configured (auto-deploy on code push)
+  [x] Production build optimised and verified
+
+================================================================================
+                           COST BREAKDOWN
+================================================================================
+
+  Service                                              Amount (INR)
+  ---------------------------------------------------------------
+  Website Design & Development                         Rs. 22,000
+  Domain Integration & Deployment (DevOps)             Rs.  3,000
+  ---------------------------------------------------------------
+  TOTAL                                                Rs. 25,000
+  ---------------------------------------------------------------
+
+================================================================================
+                           PAYMENT TERMS
+================================================================================
+
+  Payment Schedule:
+  -----------------
+  Advance (50%)       :  Rs. 12,500  — Due before final handover
+  On Completion (50%) :  Rs. 12,500  — Site is already live
+
+  NOTE: The website is fully live and delivered. Payment is requested
+        at the earliest convenience.
+
+  Payment Methods:
+  ----------------
+  UPI ID       : [Your UPI ID]
+  Bank Name    : [Your Bank Name]
+  Account No.  : [Your Account Number]
+  IFSC Code    : [Your IFSC Code]
+  Account Name : [Your Full Name]
+
+================================================================================
+                        POST-DELIVERY SUPPORT
+================================================================================
+
+  Included (Free):
+  ----------------
+  [x] 15 days free bug fixes from delivery date
+  [x] Minor text/content changes within 15 days
+
+  Optional Monthly Maintenance (Paid):
+  -------------------------------------
+  [ ] Content updates and text changes     : Rs. 2,500 / month
+  [ ] Contact form backend integration     : Rs. 3,000 (one-time)
+  [ ] Additional pages (future)            : Rs. 3,000 – Rs. 5,000 / page
+  [ ] Backend / database integration       : Separate quotation
+
+================================================================================
+                         TECHNOLOGY USED
+================================================================================
+
+  Frontend     : React 19, Vite 8, Tailwind CSS v4
+  Animations   : Motion for React
+  Icons        : Lucide React
+  Routing      : React Router DOM
+  Hosting      : Vercel (Free Tier)
+  Domain       : GoDaddy
+  Version Ctrl : Git + GitHub
+  Build        : Production-optimised static build
+
+================================================================================
+                            TERMS & CONDITIONS
+================================================================================
+
+  1. The source code is the property of the client upon full payment.
+  2. The developer retains the right to showcase this project in portfolio.
+  3. Any new features or pages beyond the agreed scope will be quoted
+     separately.
+  4. The contact form requires a third-party email service (e.g. EmailJS
+     or Formspree) to process real submissions — not included in this quote.
+  5. Domain and hosting renewal costs are the client's responsibility.
+  6. This quotation is valid for 30 days from the date of issue.
+
+================================================================================
+                            DEVELOPER DETAILS
+================================================================================
+
+  Name         : [Your Full Name]
+  Role         : Frontend Developer & Deployment Engineer
+  Experience   : 1 Year
+  Email        : [Your Email Address]
+  Phone        : [Your Phone Number]
+  GitHub       : [Your GitHub Profile URL]
+  LinkedIn     : [Your LinkedIn Profile URL]
+
+================================================================================
+  Thank you for choosing me for this project. It was a pleasure building
+  the Voverseas Education website. I look forward to supporting your
+  digital growth.
+================================================================================
