@@ -1,3 +1,4 @@
+
 import { motion } from 'motion/react'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 import SectionWrapper from '../../components/layout/SectionWrapper'
@@ -5,6 +6,7 @@ import SectionHeader from '../../components/ui/SectionHeader'
 import ContactForm from './ContactForm'
 import { useReducedMotion } from '../../hooks/useReducedMotion'
 import { company } from '../../data/company'
+import logo from '../../assets/image.png'
 
 const addressUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(company.address)}`
 
@@ -52,6 +54,8 @@ export default function Contact() {
       />
 
       <div className="grid lg:grid-cols-5 gap-8 items-start">
+
+        {/* Contact Information */}
         <motion.div
           initial={reduced ? {} : { opacity: 0, x: -24 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -60,11 +64,19 @@ export default function Contact() {
           className="lg:col-span-2 flex flex-col gap-5"
         >
           <div className="bg-navy rounded-3xl p-7 text-white relative overflow-hidden">
+
             <div className="absolute top-0 right-0 w-40 h-40 bg-primary/15 rounded-full blur-3xl" />
 
             <div className="relative">
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary to-teal flex items-center justify-center mb-5 shadow-lg">
-                <span className="text-white font-black text-xl">V</span>
+
+              {/* Company Logo */}
+              <div className="w-20 h-20 rounded-2xl bg-white flex items-center justify-center mb-5 shadow-lg p-2 overflow-hidden">
+                <img
+                  src={logo}
+                  alt="V Overseas Education Logo"
+                  className="w-full h-full object-contain"
+                  loading="lazy"
+                />
               </div>
 
               <h3 className="font-black text-xl mb-2">
@@ -76,19 +88,22 @@ export default function Contact() {
                 guidance.
               </p>
 
+              {/* Contact Details */}
               <div className="flex flex-col gap-4">
+
                 {contactDetails.map(
                   ({ icon: Icon, label, value, href }) => (
                     <div
                       key={label}
                       className="flex items-start gap-3"
                     >
-                      <div className="w-8 h-8 rounded-xl bg-white/8 border border-white/10 flex items-center justify-center shrink-0">
-                        <Icon size={14} className="text-gold" />
+                      <div className="w-12 h-12 rounded-2xl bg-white/8 border border-white/10 flex items-center justify-center shrink-0">
+                        <Icon size={18} className="text-gold" />
                       </div>
 
-                      <div className="min-w-0">
-                        <div className="text-[10px] text-blue-300/70 font-semibold uppercase tracking-wider mb-0.5">
+                      <div className="min-w-0 flex-1 pt-0.5">
+
+                        <div className="text-xs text-blue-300/70 font-semibold uppercase tracking-wider mb-1">
                           {label}
                         </div>
 
@@ -105,24 +120,28 @@ export default function Contact() {
                                 ? 'noreferrer'
                                 : undefined
                             }
-                            className="text-sm text-white/90 hover:text-gold transition-colors break-words"
+                            className="text-sm text-white/90 hover:text-gold transition-colors break-words leading-relaxed"
                           >
                             {value}
                           </a>
                         ) : (
-                          <div className="text-sm text-white/90">
+                          <div className="text-sm text-white/90 leading-relaxed">
                             {value}
                           </div>
                         )}
+
                       </div>
                     </div>
                   )
                 )}
+
               </div>
             </div>
           </div>
 
+          {/* Free Consultation */}
           <div className="bg-white rounded-2xl p-5 border border-primary/10 shadow-sm">
+
             <div className="flex items-center gap-2 mb-2">
               <div className="w-2 h-2 rounded-full bg-emerald" />
 
@@ -136,9 +155,11 @@ export default function Contact() {
               your goals and give you an honest assessment of your options —
               with no pressure.
             </p>
+
           </div>
         </motion.div>
 
+        {/* Contact Form */}
         <motion.div
           initial={reduced ? {} : { opacity: 0, x: 24 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -146,6 +167,7 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="lg:col-span-3 bg-white rounded-3xl p-8 shadow-sm border border-gray-100"
         >
+
           <h3 className="font-bold text-dark-text text-lg mb-1">
             Send us an enquiry
           </h3>
@@ -155,7 +177,9 @@ export default function Contact() {
           </p>
 
           <ContactForm />
+
         </motion.div>
+
       </div>
     </SectionWrapper>
   )

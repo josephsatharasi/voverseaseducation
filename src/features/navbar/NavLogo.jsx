@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logopic.png'
 
 export default function NavLogo({ light = false }) {
   return (
@@ -12,7 +12,7 @@ export default function NavLogo({ light = false }) {
      <img
   src={logo}
   alt="V Overseas Education Logo"
-  className="h-[67px] w-auto object-contain shrink-0"
+  className="h-[47px] w-auto object-contain shrink-0"
 />
 
       {/* Company Name */}
